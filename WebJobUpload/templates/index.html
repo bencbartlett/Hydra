@@ -1,0 +1,15 @@
+<!doctype html>
+  <title>Upload new File</title>
+  <h2>Upload new File</h2>
+    <form method="post" enctype="multipart/form-data">
+      Your email:
+      <input type=email name="uploaderEmail">
+      <br />
+      Job timeout (minutes):
+      <input type=number name="timeoutLength" min="1" max="999999">
+      <br />
+      Job archive (.zip):
+      <input type=file name="file">
+      <br />
+      <input type=submit value="Upload">
+    </form>
